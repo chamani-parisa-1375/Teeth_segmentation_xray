@@ -25,7 +25,7 @@ if __name__ == '__main__':
     imgsize_640 = 640
 
 
-    train_yolo(data_yaml,model_n,imgsize_640,batch_size=4)
+    train_yolo(data_yaml,model_n,imgsize_960,batch_size=4)
 
 
 
