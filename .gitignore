@@ -1,7 +1,12 @@
 /data
-/models
+
 /.idea
 
-/__pycache__
-/runs
 *.pyc
+*.pt
+
+*.pth
+*.zip
+
+
+/runs
