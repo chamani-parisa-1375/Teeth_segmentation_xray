@@ -1,8 +1,9 @@
-torch
+torch>=2.0.0
 numpy
 opencv-python
 Pillow
 matplotlib
 tqdm
 segmentation-models-pytorch
+timm
 ultralytics
