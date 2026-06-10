@@ -20,3 +20,4 @@ this tabel
 | yolo11x | 960 | 0.75 | 0.82 |
 
  <img src="Sample_Images.png">
+ <img src="Sample_Predict.png">
