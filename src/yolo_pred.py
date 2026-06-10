@@ -1,4 +1,4 @@
-from torch.cuda import device
+
 import numpy as np
 import cv2
 
