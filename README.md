@@ -19,4 +19,4 @@ this tabel
 | yolo11x | 640 | 0.73 | 0.81 |
 | yolo11x | 960 | 0.75 | 0.82 |
 
-
+ <img src="Sample_Images.png" width="300">
