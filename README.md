@@ -1,17 +1,14 @@
-# Teeth Segmentation Dental X-rays
+# Teeth Segmentation on Panoramic Dental X-rays
 
-Deep learning based teeth segmentation dental X-ray images using PyTorch,U-Net and YOLO based architectures.
+Deep learning-based semantic segmentation of teeth in panoramic dental X-ray images using U-Net variants and YOLO segmentation models.
 
----
+This repository includes:
+- Training pipelines
+- Evaluation scripts
+- Inference examples
+- Multiple segmentation architectures
+- Dice and IoU metrics
 
-## ✨ Features
-
-- Multi-class teeth segmentation
-- PyTorch implementation
-- Training and inference scripts
-- Dice / IoU evaluation
-- Custom dataset support
-- GPU training support
 
 ---
 ## 🧠 Model Architecture
@@ -40,8 +37,12 @@ pip install -r requirements.txt
 ```
 ## 🗂 Dataset
 
-download <a href=https://www.kaggle.com/datasets/humansintheloop/teeth-segmentation-on-dental-x-ray-images>Teeth Segmentation Dental X-rays</a>
+download Teeth Segmentation Dental X-rays from <a href=https://www.kaggle.com/datasets/humansintheloop/teeth-segmentation-on-dental-x-ray-images>
+hear.</a> 
 
+#### Examples of samples from the dataset:
+
+<img src="Sample_Images.png">
 ## 🚀 Training
 Unet++:
 ```aiignore
@@ -78,16 +79,25 @@ These results demonstrate that larger YOLO11 variants and higher input resolutio
 | yolo11x | 640 | 0.73 | 0.81 |
 | yolo11x | 960 | 0.75 | 0.82 |
 
-<img src="Sample_Images.png">
+#### Showing the difference between U-Net and YOLO predictions:
 <img src="Sample_Predict.png">
+
+#### YOLO prediction sample:
 <img src="YOLO_predict.png">
 
 ---
-## 📜 Citiation
+## 📜 Citation
+
+If you use this project in your research or work, please cite:
+
+```bibtex
 @misc{teeth_segmentation_xray,
   author = {Parisa Chamani},
   title = {Teeth Segmentation on Panoramic Dental X-rays},
   year = {2026},
   publisher = {GitHub},
-  howpublished = {https://github.com/chamani-parisa-1375/Teeth_segmentation_xray}
+  howpublished = {\url{https://github.com/chamani-parisa-1375/Teeth_segmentation_xray}}
 }
+````
+
+
