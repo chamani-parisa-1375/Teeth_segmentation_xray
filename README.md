@@ -1,5 +1,6 @@
 # Teeth_segmentation_xray
-
+------
+## Metric Iou and Dice for all models
 | ModelName | ImageSize | Iou | Dice |
 | --- | --- | --- | --- |
 | UnetPlusPlus,efficientnet-b3 | 256 | 0.57 | 0.65 |
